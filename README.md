@@ -51,6 +51,8 @@ Enjoy!
 
   See https://saga-gis.sourceforge.io/saga_tool_doc/8.1.0/ta_cliffmetrics_0.html for the integration in SAGA GIS.
 
+  See https://earthwise.bgs.ac.uk/index.php/Category:CliffMetrics for dedicated Wiki site.
+
   Payo, A., Jigena Antelo, B., Hurst, M., Palaseanu-Lovejoy, M., Williams, C., Jenkins, G., Lee, K., Favis-Mortlock, D., Barkwith, A., and Ellis, M. A.: Development of an automatic delineation of cliff top and toe on very irregular planform coastlines (CliffMetrics v1.0), Geosci. Model Dev., 11, 4317–4337, https://doi.org/10.5194/gmd-11-4317-2018, 2018.
 	
 
