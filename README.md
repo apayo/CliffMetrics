@@ -1,4 +1,11 @@
-# CliffMetrics version March 2024
+# CliffMetrics
+Version 1.0 
+Date 26 March 2024
+
+<p align="left">
+  <img src="https://gmd.copernicus.org/articles/11/4317/2018/gmd-11-4317-2018-avatar-web.png" alt="CliffMetrics summary figure" width="250">
+</p>
+
 ## Table of contents
 
 - [About](#about)
