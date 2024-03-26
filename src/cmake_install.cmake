@@ -1,4 +1,4 @@
-# Install script for directory: /home/agarcia/Projects/NewCliffMetrics/src
+# Install script for directory: /home/agarcia/Projects/newCliffMetric/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,19 +29,41 @@ endif()
 
 # Install shared libraries without execute permission?
 if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "0")
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "FALSE")
+endif()
+
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}/home/agarcia/Projects/newCliffMetric/src/../cliff" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/agarcia/Projects/newCliffMetric/src/../cliff")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}/home/agarcia/Projects/newCliffMetric/src/../cliff"
+         RPATH "")
+  endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/agarcia/Projects/NewCliffMetrics/cliff")
+   "/home/agarcia/Projects/newCliffMetric/src/../cliff")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/agarcia/Projects/NewCliffMetrics" TYPE EXECUTABLE FILES "/home/agarcia/Projects/NewCliffMetrics/src/CMakeFiles/CMakeRelink.dir/cliff")
+  file(INSTALL DESTINATION "/home/agarcia/Projects/newCliffMetric/src/.." TYPE EXECUTABLE FILES "/home/agarcia/Projects/newCliffMetric/src/Debug/cliff")
+  if(EXISTS "$ENV{DESTDIR}/home/agarcia/Projects/newCliffMetric/src/../cliff" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/agarcia/Projects/newCliffMetric/src/../cliff")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/agarcia/Projects/newCliffMetric/src/../cliff")
+    endif()
+  endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -52,5 +74,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/agarcia/Projects/NewCliffMetrics/src/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/agarcia/Projects/newCliffMetric/src/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

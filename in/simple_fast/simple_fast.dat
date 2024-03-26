@@ -22,17 +22,17 @@
 ;
 ; Run information -----------------------------------------------------------------------------------------------------
 1 Main output/log file names                        [omit path and extension]: simple
-2 DTM file  (DTM MUST BE PRESENT)                             [path and name]: in/simple_fast/two_bays.asc; in/simple_fast/basement.asc
-3 Still water level (m)  used to find the shoreline                          : 75       ; use 165 with all consolidated layers
+2 DTM file  (DTM MUST BE PRESENT)                             [path and name]: in/simple_fast/two_bays.asc
+3 Still water level (m)  used to find the shoreline                          : 75    
 4 Coastline smoothing              [0=none, 1=running mean, 2=Savitsky-Golay]: 1
-5 Coastline smoothing window size                               [must be odd]: 55                        ; was 55 for S-G
+5 Coastline smoothing window size                               [must be odd]: 55    
 6 Polynomial order for Savitsky-Golay coastline smoothing            [2 or 4]: 4
 
 ; If user wants to use a given shoreline vector instead of extracting it from the DTM 
-7 Shoreline shape file (OPTIONAL GIS FILES)                   [path and name]: ;in/simple_fast/chain_coastline.shp;	 
-8 Sea handiness (which side of shoreline the sea is? )[right = 0 or left = 1]: 0 ;
-9 On which Edge is the start of user shoreline?  [N = 1, E = 2, S = 3, W = 4]: 1 ;
-10 On which Edge is the end of user shoreline?   [N = 1, E = 2, S = 3, W = 4]: 3 ;
+7 Shoreline shape file (OPTIONAL GIS FILES)                   [path and name]: in/simple_fast/chain_coastline.shp 
+8 Sea handiness (which side of shoreline the sea is? )[right = 0 or left = 1]: 0 
+9 On which Edge is the start of user shoreline?  [N = 1, E = 2, S = 3, W = 4]: 1 
+10 On which Edge is the end of user shoreline?   [N = 1, E = 2, S = 3, W = 4]: 3 
 
 
 ; Advance Run information -----------------------------------------------------------------------------------------------------
@@ -42,6 +42,6 @@
 14 GIS vector output format                                                  : ESRI Shapefile           ; ogrinfo --formats for others
 15 Random edge for coastline search?                                    [y/n]: n
 16 Random number seed(s)                                                     : 280761
-17 Length of coastline normals (m)                                           : 50       ; was 80
-18 Vertical tolerance to consider to elevation different (m)	               : 0.5
+17 Length of coastline normals (m)                                           : 50       
+18 Vertical tolerance to consider to elevation different (m)	             : 0.5
 ; END OF FILE ----------------------------------------------------------------------------------------------------------

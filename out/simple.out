@@ -1,0 +1,46 @@
+CliffMetrics 0.9.9 - 9 Jan 2017 for Intel x86/GNU C++ (14:29:41 Mar 25 2024 DEBUG build) on KWPLT1313wsl
+
+RUN DETAILS
+ Name                                                      	: simple
+ Started on                                                	: Mon Mar 25 16:13:03 2024
+ Initialization file                                       	: /home/agarcia/Projects/newCliffMetric/cliffmetrics.ini
+ Input data read from                                      	: /home/agarcia/Projects/newCliffMetric/in/simple_fast/simple_fast.dat
+ Random number seeds                                       	: 280761	280761	
+*First random numbers generated                            	: 2398677878	2398677878
+ Raster GIS output format                                  	: GeoTIFF
+ Raster output values scaled (if needed)                   	: Y
+ Raster world files created (if needed)                    	: Y
+ Raster GIS files saved                                    	: rcoast, rcoast_normal
+ Vector GIS output format                                  	: ESRI Shapefile
+ Vector GIS files saved                                    	: coast, normals, invalid_normals, cliff_top, cliff_toe
+ Output file (this file)                                   	: /home/agarcia/Projects/newCliffMetric/out/simple.out
+ Log file                                                  	: /home/agarcia/Projects/newCliffMetric/out/simple.log
+ Coastline vector smoothing algorithm                      	: running mean
+ Random edge for coastline search?                         	: N
+
+ Size of coastline vector smoothing window                 	: 55
+Raster GIS Input Files
+ DTM file                                                  	: /home/agarcia/Projects/newCliffMetric/in/simple_fast/two_bays.asc
+ DTM driver code                                           	: AAIGrid
+ GDAL DTM driver description                               	: Arc/Info ASCII Grid
+ GDAL DTM projection                                       	: 
+ GDAL DTM data type                                        	: Float32
+ Grid size (X by Y)                                        	: 250 by 500
+*Coordinates of NW corner of grid (external CRS)           	: 0.5, 501.5
+*Coordinates of SE corner of grid (external CRS)           	: 251.5, 0.5
+*Cell size                                                 	: 1.0 m
+*Grid area                                                 	: 62938.2 m^2
+*Grid area                                                 	: 0.06 km^2
+
+Vector GIS Input Files
+ Initial Coastline file                                    	: /home/agarcia/Projects/newCliffMetric/in/simple_fast/chain_coastline.shp
+ OGR Initial Coastline file driver code                    	: ESRI Shapefile
+
+
+Other Input Data
+ Still water level used to extract shoreline               	: 75.0 m
+ Length of coastline normals                               	: 50.0 m
+ Vertical tolerance avoid false CliffTops/Toes             	: 0.500 m
+
+
+
