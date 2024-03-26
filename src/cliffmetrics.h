@@ -124,11 +124,11 @@
 
 
 //===================================================== hard-wired constants ====================================================
-string const   PROGNAME                      = "CliffMetrics 0.9.9 - 9 Jan 2017";
+string const   PROGNAME                      = "CliffMetrics 1.0.0 - 26 Mar 2024";
 string const   SHORTNAME                     = "CLIFF";
 string const   CLIFF_INI                     = "cliffmetrics.ini";
 
-string const   COPYRIGHT                     = "(C) 2017 Andres Payo, David Favis-Mortlock, Martin Hurst, Monica Palaseanu-Lovejoy ";
+string const   COPYRIGHT                     = "(C) 2024 Andres Payo, David Favis-Mortlock, Martin Hurst, Monica Palaseanu-Lovejoy ";
 string const   LINE                          = "-------------------------------------------------------------------------------";
 string const   DISCLAIMER1                   = "This program is distributed in the hope that it will be useful, but WITHOUT ANY";
 string const   DISCLAIMER2                   = "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A";
