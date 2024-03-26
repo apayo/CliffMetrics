@@ -1,7 +1,0 @@
-/home/agarcia/Projects/newCliffMetric/src/CMakeFiles/cliff.dir
-/home/agarcia/Projects/newCliffMetric/src/CMakeFiles/edit_cache.dir
-/home/agarcia/Projects/newCliffMetric/src/CMakeFiles/rebuild_cache.dir
-/home/agarcia/Projects/newCliffMetric/src/CMakeFiles/list_install_components.dir
-/home/agarcia/Projects/newCliffMetric/src/CMakeFiles/install.dir
-/home/agarcia/Projects/newCliffMetric/src/CMakeFiles/install/local.dir
-/home/agarcia/Projects/newCliffMetric/src/CMakeFiles/install/strip.dir
