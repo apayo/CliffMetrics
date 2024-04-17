@@ -21,7 +21,7 @@ CliffMetrics (Automatic Cliff Metrics delineation) delineates the location of th
 
 CliffMetrics builds easily using Linux. If you wish to run CliffMetrics on Windows, then we currently recommend using the Windows Subsystem Linux (WSL) software to do this.
 
-Create a local copy of the github repository, for example by downloading a zipfile, then unpacking it or cloning. We suggest unpacking it to something like "/home/YOUR NAME/Projects/CiffMetrics/", this is your CliffMetrics folder.
+Create a local copy of the github repository, for example by downloading a zipfile, then unpacking it or cloning. We suggest unpacking it to something like "/home/YOUR NAME/Projects/CliffMetrics/", this is your CliffMetrics folder.
 
 ```
 git clone https://github.com/apayo/CliffMetrics
@@ -29,6 +29,8 @@ git clone https://github.com/apayo/CliffMetrics
 
 In a terminal window (i.e. at a command-line prompt) move to the CliffMetrics folder. Check that you can see a folder structure like this:
 
+LICENSE
+README,md
 in
 out
 src
